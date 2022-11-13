@@ -1,0 +1,184 @@
+body {
+  margin: 0px 80px;
+  font-family: "Nunito", sans-serif;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#header h2 {
+  font-family: "Nunito", sans-serif;
+}
+#headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+}
+#headerContent li,
+a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+#headerContent li {
+  margin: 0px 10px;
+}
+#card1left h1,
+p,
+button {
+  font-family: "Nunito", sans-serif;
+}
+#apresentation {
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin-top: 10px;
+}
+#card1left button {
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 10px 23px;
+  border: none;
+  background-color: #1f7cff;
+  color: white;
+}
+#card1left h1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 82px;
+}
+#card1right img {
+  width: 100%;
+  height: 350px;
+  box-sizing: border-box;
+}
+#card1right {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+#clientes {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+}
+.clienteitems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clienteitems h5 {
+  margin-left: 6px;
+  font-size: 20px;
+}
+#introdução {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+#introduçãoContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#introduçãoContent h2,
+h4 {
+  margin: 3px;
+}
+/*cor da fonte h2*/
+#introduçãoContent div,
+h4 {
+  color: red;
+}
+#introduçãoContent h2 {
+  font-size: 35px;
+}
+.clienteitems i {
+  font-size: 28px;
+}
+#trabalhos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.trabalhositems i {
+  font-size: 28px;
+}
+.trabalhositems {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.trabalhositems p {
+  margin-top: 0px;
+}
+.trabalhositems h3 {
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+#forms {
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin-top: 40px;
+}
+
+#formsleft img {
+  width: 90%;
+  height: 400px;
+  box-sizing: border-box;
+}
+#formsright {
+  padding-left: 60px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+#formsleft {
+  display: flex;
+  justify-content: flex-start;
+}
+#formsright button {
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 10px 23px;
+  border: none;
+  background-color: #1f7cff;
+  color: white;
+  width: 200px;
+}
+#formsright input {
+  border: none;
+  border-radius: 20px;
+  background-color: #dbdcdf;
+  width: 406px;
+  height: 35px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  color: black;
+}
+#formsright h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+#contatos {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.contatositems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contatositems i {
+  font-size: 28px;
+  margin-right: 15px;
+}
